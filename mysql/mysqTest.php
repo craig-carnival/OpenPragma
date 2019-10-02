@@ -69,3 +69,6 @@ for ($i = 0; $i < mysqli_num_rows($result); $i++) {
 //}
 
 //mysqli_commit($conn);
+
+mysqli_close($conn);
+// Please close the database connection after your program is over
